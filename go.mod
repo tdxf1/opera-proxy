@@ -2,13 +2,13 @@ module github.com/Alexey71/opera-proxy
 
 go 1.25.0
 
-toolchain go1.26.4
+toolchain go1.26.5
 
 require (
 	github.com/Alexey71/go-http-digest-auth-client v1.1.3
 	github.com/Alexey71/go-multierror v1.1.3
 	github.com/ncruces/go-dns v1.3.3
 	github.com/things-go/go-socks5 v0.1.1
-	golang.org/x/crypto/x509roots/fallback v0.0.0-20260707170658-d9474cc4853d
-	golang.org/x/net v0.56.0
+	golang.org/x/crypto/x509roots/fallback v0.0.0-20260709184058-243e02a382f8
+	golang.org/x/net v0.57.0
 )
